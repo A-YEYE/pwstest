@@ -7,7 +7,7 @@
   "orientation": "portrait",
   "scope": "/",
   "short_name": "시간의 법칙",
-  "start_url": "/a-yeye.github.io/pwstest/",
+  "start_url": "https://a-yeye.github.io/pwstest/",
   "theme_color": "#ffffff",
   "categories": ["utilities"],
   "screenshots": [

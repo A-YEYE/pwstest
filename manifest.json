@@ -24,11 +24,10 @@
   ],
   "icons": [
     {
-      "src": "images/10000hours/favicon.ico"
-    },
-    {
-      "src": "/favicon.ico",
-      "type": "image/x-icon"
+      "src": "/free-icon-heart-833472.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
     }
   ],
   "shortcuts": [],

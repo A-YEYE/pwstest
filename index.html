@@ -109,7 +109,7 @@
     <!-- 서비스 워커 등록-->
     <script>
         if('serviceWorker' in navigator){
-            navigator.serviceWorker.register('/pwabuilder-sw.js').then(function(){
+            navigator.serviceWorker.register('/sw.js').then(function(){
                 console.log("서비스 워커 등록");
             })
         }

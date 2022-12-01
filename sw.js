@@ -7,6 +7,6 @@ self.addEventListener('activate', pEvent => {
 });
 
 self.addEventListener('fetch', pEvent => {
-    console.log("data 요청 ", pEvent);
+    console.log("data 요청 ", pEvent.request);
 });
  

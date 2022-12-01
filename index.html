@@ -106,5 +106,13 @@
         </p>
     </section>
     <script type="text/javascript" src="js/10000hours.js"></script>
+    <!-- 서비스 워커 등록-->
+    <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('/pwabuilder-sw.js').then(function(){
+                console.log("서비스 워커 등록");
+            })
+        }
+    </script>
 </body>
 </html>
